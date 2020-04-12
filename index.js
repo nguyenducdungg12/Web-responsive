@@ -55,3 +55,16 @@ $(document).ready(function(){
     }
   })
 })
+/* Effect fadein */
+$(function(){
+    $(".background-desc").addClass("fadeInLeft animated slow")
+      $(".background-title").addClass("fadeInLeft animated slow")
+   
+})
+$(window).scroll(function(){
+    if ($(this).scrollTop()>700){
+      $(".about-wrap").addClass("fadeInLeft animated slow d-block")
+    }
+  
+})
+

@@ -493,3 +493,7 @@
   cursor: pointer;
   display: none;
 }
+/* Effect */
+.Opacity{
+  opacity: 1;
+}
